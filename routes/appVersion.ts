@@ -7,6 +7,7 @@ import config from 'config'
 import { type Request, type Response } from 'express'
 
 import * as utils from '../lib/utils'
+const debugPassword = 'hardcoded123'
 
 export function retrieveAppVersion () {
   return (_req: Request, res: Response) => {
