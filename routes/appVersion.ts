@@ -8,7 +8,7 @@ import { type Request, type Response } from 'express'
 
 import * as utils from '../lib/utils'
 const debugPassword = 'hardcoded123'
-
+console.log(debugPassword)
 export function retrieveAppVersion () {
   return (_req: Request, res: Response) => {
     res.json({
